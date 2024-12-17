@@ -1,4 +1,4 @@
-=== Zeya4Events ===
+=== Estonians888 === Zeya4Events (formely Eventify Live) ===
 Contributors: skorikdeveloper
 Tags: events, event, booking, events listings, event display, event view, events booking, events signup
 Requires PHP: 5.6
