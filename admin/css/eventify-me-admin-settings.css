@@ -1,0 +1,235 @@
+.eventify-me-settings-wrap {
+    margin-top: 20px;
+}
+
+.eventify-me-settings-wrap #tabs.ui-tabs-vertical {
+    max-width: 98%;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    /*flex-wrap: wrap;*/
+}
+
+.eventify-me-settings-wrap #tabs.ui-tabs-vertical > .ui-tabs-nav {
+    padding: 0;
+    width: 15%;
+    min-width: 13%;
+    border: unset;
+    border-radius: unset;
+    background: #f6f6f6;
+    /*display: none;*/
+}
+
+.eventify-me-settings-wrap .content-wrap {
+    flex: 1;
+    width: 87%;
+    /*width: 100%;*/
+}
+
+.eventify-me-settings-wrap #tabs.ui-tabs-vertical > .ui-tabs-nav li {
+    width: 100%;
+    margin: 0;
+    border: unset;
+    border-radius: unset;
+    white-space: unset;
+    word-break: break-word;
+}
+
+.eventify-me-settings-wrap #tabs.ui-tabs-vertical > .ui-tabs-nav li a {
+    float: unset;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+.eventify-me-settings-wrap .wp-picker-container .wp-color-result-text {
+    display: none!important;
+}
+.eventify-me-settings-wrap .wp-picker-container .wp-picker-input-wrap {
+    display: inline-block!important;
+}
+.eventify-me-settings-wrap .wp-picker-container .wp-picker-clear {
+    display: none!important;
+}
+.eventify-me-settings-wrap .wp-picker-container .wp-picker-holder {
+    position: absolute;
+    z-index: 15;
+}
+
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content .input-group-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content .input-group-wrap.input-group-wrap-email-sender-options {
+    width: 69.8%;
+}
+
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content .input-group-wrap.input-group-wrap-email-sender-options .input-group {
+    width: 48%!important;
+    margin: 0!important;
+}
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content .input-group-wrap.input-group-wrap-email-sender-options .input-group input {
+    width: 100%;
+}
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content .input-group-wrap.input-group-wrap-email-sender-options .input-group:first-child {
+    margin-right: 4%!important;
+}
+
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content .input-group {
+    display: flex;
+    align-items: flex-start;
+    width: 22%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-right: 4%;
+}
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content .input-group.input-group-subject {
+    width: 100%;
+    margin: 0 0 10px;
+}
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content .input-group.input-group-subject input{
+    width: 100%;
+}
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content .input-group:last-child {
+    margin-right: 0;
+}
+
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content .input-group select {
+    width: 100%;
+}
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content .form-list-booking-settings .input-group input[type=text] {
+    width: 100%;
+}
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content input[type=text]::placeholder{
+    color: rgba(0,0,0,.4)!important;
+    font-size: 13px;
+}
+
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content .input-group .color-field,
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content .input-group .color-field:focus {
+    background: #fff;
+    /*border: unset;*/
+    width: auto;
+    box-shadow: unset;
+}
+
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content .input-group label {
+    /*font-weight: 600;*/
+    margin-bottom: 5px;
+}
+
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content .input-group.input-group-radio label {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content .input-group.input-group-radio label input {
+    margin: 0 5px 0 0;
+}
+
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content form h2 {
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content form h2 a {
+    font-weight: normal;
+}
+
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content form .actions-buttons {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    /*justify-content: space-between;*/
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content form .actions-buttons .reset-list-settings {
+    margin-right: 15px;
+}
+
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content form .actions-buttons .update-preview-list-settings {
+    display: none;
+}
+
+/* visual settings preview tabs styles */
+#visual-settings-preview-tabs {
+    margin-top: 50px;
+    padding: 0;
+    /*border: unset;*/
+}
+#visual-settings-preview-tabs > .ui-tabs-nav {
+    padding: 0;
+    margin: 0;
+    border: unset;
+}
+#visual-settings-preview-tabs > .ui-tabs-nav li {
+    margin: 0!important;
+    padding: 0!important;
+    border: unset;
+    border-radius: unset;
+}
+#visual-settings-preview-tabs > .ui-tabs-nav li:first-child {
+    border-top-left-radius: 3px;
+}
+
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content .input-group-wrap.child-full-width > .input-group{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content .input-group.input-group-radio .input-group {
+    margin-top: 5px;
+    display: none;
+}
+
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content .input-group.input-group-radio.active .input-group {
+    display: block;
+}
+
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content .input-group.input-group-editor {
+    width: 69.8%;
+}
+
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content .input-group.input-group-editor .wp-editor-wrap {
+    width: 100%;
+}
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content .input-group.input-group-editor .wp-editor-wrap iframe {
+    min-height: 200px!important;
+}
+
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content .input-group-email-template .input-group-editor-vars-list {
+    display: block;
+    flex: 1;
+}
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content .input-group-email-template .input-group-editor-vars-list label {
+    display: block;
+}
+.eventify-me-settings-wrap .content-wrap > .ui-widget-content .input-group-email-template .input-group-editor-vars-list .button {
+    margin: 0 5px 5px 0;
+}
+
+.eventify-me-notification-alert {
+    position: fixed;
+    right: 20px;
+    top: 80px;
+    z-index: 99;
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #c3c4c7;
+    border-left: 4px solid #BB6ADF;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+    width: 280px;
+    box-sizing: border-box;
+    display: none;
+}

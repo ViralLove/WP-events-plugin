@@ -1,0 +1,1258 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eventify-me\n"
+"POT-Creation-Date: 2022-02-02 10:30+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Dmitriy <skorikdeveloper@gmail.com>\n"
+"Language-Team: Developers\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+#: admin/class-eventify-me-admin.php:156
+msgid ""
+"In order to add events content to your website, simply use shortcodes "
+"following our standards:"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:160
+msgid "List all your events: "
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:161 admin/class-eventify-me-admin.php:166
+#: admin/class-eventify-me-admin.php:172
+msgid "Attributes:"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:162 admin/class-eventify-me-admin.php:167
+msgid "show_location=\"true/false\""
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:165
+msgid "Display specific event on a dedicated page: "
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:168
+msgid "events_ids=\"1,2,3\""
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:171
+msgid "Display specific event’s booking section on a dedicated page: "
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:173
+msgid "event_id=\"1\""
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:183 admin/class-eventify-me-admin.php:477
+msgid "Events"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:193
+msgid "Back without saving"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:196
+msgid "Save and back"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:199
+msgid "Save"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:210 admin/class-eventify-me-admin.php:216
+msgid "Parent"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:220
+msgid "Used in events"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:243
+#: admin/class-eventify-me-booking-list.php:376
+msgid "ID"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:247
+#: includes/class-eventify-me-activator.php:125
+msgid "Event manager"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:287
+#, php-format
+msgid ""
+"Event’s unique identifier: <strong>%s</strong> (used in the shortcodes for "
+"displaying specific event or limited list of events)"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:290
+#, php-format
+msgid ""
+"Short code to display this event separately: <span>[events_list_view "
+"events_ids=\"%s\" show_location=\"false\"]</span>"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:291 admin/class-eventify-me-admin.php:295
+msgid "Copy to clipboard"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:294
+#, php-format
+msgid ""
+"Short code to display the booking of this event: <span>[booking_event "
+"events_ids=\"%s\"]</span>"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:298
+msgid "Event page shortcode value successfully copied to clipboard"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:299
+msgid "Event booking page shortcode value successfully copied to clipboard"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:308
+msgid "Duplicate event"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:366
+#, php-format
+msgid "Duplicated %s post."
+msgid_plural "Duplicated %s posts."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: admin/class-eventify-me-admin.php:478
+#: admin/class-eventify-me-booking-list.php:377
+msgid "Event"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:479 admin/class-eventify-me-admin.php:480
+msgid "Add new Event"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:481
+msgid "Edit Event"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:482
+msgid "New Event"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:483
+msgid "View Event"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:484
+msgid "Search Events"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:485
+msgid "Events not found"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:486
+msgid "Events not found in the trash"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:487
+msgid "Zeya4Events"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:502 admin/class-eventify-me-admin.php:512
+#: admin/partials/events_metabox_section_what.php:17
+msgid "Event formats"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:503
+msgid "Event format"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:504
+msgid "Search format"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:505
+msgid "All formats"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:506
+msgid "View format"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:507
+msgid "Parent format"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:508
+msgid "Edit format"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:509
+msgid "Update format"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:510
+msgid "Add new format"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:511
+msgid "New format name"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:513
+msgid "Back to formats"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:522 admin/class-eventify-me-admin.php:532
+#: admin/partials/events_metabox_section_what.php:49
+msgid "Event thematics"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:523
+msgid "Event thematic"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:524
+msgid "Search thematics"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:525
+msgid "All thematics"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:526
+msgid "View thematic"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:527
+msgid "Parent thematic"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:528
+msgid "Edit thematic"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:529
+msgid "Update thematic"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:530
+msgid "Add new thematic"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:531
+msgid "New thematic name"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:533
+msgid "Back to thematics"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:548
+msgid "Regular class"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:549
+msgid "Workshop"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:550
+msgid "Performance"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:551
+msgid "Dancing"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:552
+msgid "Meditation"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:553
+msgid "Music jam"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:554
+msgid "Lection"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:555
+msgid "Retreat"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:572
+msgid "Music"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:573
+msgid "Visual arts"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:574
+msgid "Body practice"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:575
+msgid "Dance"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:576
+msgid "World transition"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:577
+msgid "Spirituality"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:578
+msgid "Healing"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:593
+#: public/partials/single-eventify-me.php:100
+msgid "WHAT"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:594
+msgid "FOR WHOM"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:595
+#: public/partials/single-eventify-me.php:101
+#: public/partials/single-eventify-me.php:262
+msgid "WHEN"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:596
+#: public/partials/single-eventify-me.php:103
+#: public/partials/single-eventify-me.php:301
+msgid "WHERE"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:597
+#: public/partials/single-eventify-me.php:325
+msgid "PRICE"
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:598
+msgid "Additional settings"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:9
+#: public/class-eventify-me-public.php:75
+msgid "Booking"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:10
+#: includes/entities/booking_order.php:38
+#: includes/entities/booking_order.php:39
+#: includes/entities/booking_order.php:70
+msgid "Bookings"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:253
+msgid "No bookings available."
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:296
+msgid "Edit"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:297
+msgid "View"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:300
+msgid "Remove this booking?"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:300
+#: admin/class-eventify-me-booking-list.php:420
+msgid "Delete"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:378
+msgid "Time sessions"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:379
+msgid "Quantity in order"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:380
+msgid "User email"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:381
+msgid "User phone"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:382
+msgid "User comments"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:383
+msgid "Status"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:385
+msgid "Order Identifier"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:386
+msgid "Order created on"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:517
+msgid "Search bookings by criteria"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:520
+#: admin/class-eventify-me-booking-list.php:521
+msgid "Filter by event, comments"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:526
+msgid "Event sessions time"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:531
+msgid "By start time"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:532
+msgid "By start date"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:538
+msgid "Session starts between"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:540
+#: admin/class-eventify-me-booking-list.php:546
+#: admin/class-eventify-me-booking-list.php:564
+#: admin/class-eventify-me-booking-list.php:570
+msgid "hh"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:542
+#: admin/class-eventify-me-booking-list.php:548
+#: admin/class-eventify-me-booking-list.php:566
+#: admin/class-eventify-me-booking-list.php:572
+msgid "mm"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:544
+#: admin/class-eventify-me-booking-list.php:568
+msgid "and"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:555
+msgid "By end time"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:556
+msgid "By end date"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:562
+msgid "Session ends between"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:580
+#: admin/class-eventify-me-booking-list.php:581
+msgid "Filter by user email"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:586
+#: admin/class-eventify-me-booking-list.php:587
+msgid "Filter by user phone"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:592
+#: admin/class-eventify-me-booking-list.php:593
+msgid "Filter by order identifier"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:599
+msgid "Filter by order created on"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:603
+#: admin/class-eventify-me-booking-list.php:604
+msgid "From"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:610
+#: admin/class-eventify-me-booking-list.php:611
+msgid "To"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:617
+msgid "Hide filters"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:620
+msgid "Apply filter"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:624
+msgid "Show filters"
+msgstr ""
+
+#: admin/class-eventify-me-filter-events-admin.php:20
+msgid "Search events by criteria"
+msgstr ""
+
+#: admin/class-eventify-me-filter-events-admin.php:40
+#: admin/class-eventify-me-filter-events-admin.php:41
+msgid "Filter by events date"
+msgstr ""
+
+#: admin/class-eventify-me-filter-events-admin.php:45
+#: admin/class-eventify-me-filter-events-admin.php:46
+msgid "Filter By Creation"
+msgstr ""
+
+#: admin/class-eventify-me-filter-events-admin.php:50
+#: admin/class-eventify-me-filter-events-admin.php:51
+msgid "Filter By Updated"
+msgstr ""
+
+#: admin/class-eventify-me-filter-events-admin.php:62
+#: admin/class-eventify-me-filter-events-admin.php:69
+msgid "Show all"
+msgstr ""
+
+#: admin/class-eventify-me-filter-events-admin.php:62
+msgid "Filter by event thematics"
+msgstr ""
+
+#: admin/class-eventify-me-filter-events-admin.php:69
+msgid "Filter by event formats"
+msgstr ""
+
+#: admin/class-eventify-me-settings.php:31
+#: admin/class-eventify-me-settings.php:32
+#: admin/partials/settings/eventify_me_settings_layout.php:4
+msgid "Settings"
+msgstr "Réglages"
+
+#: admin/class-eventify-me-settings.php:82
+#: admin/class-eventify-me-settings.php:83
+msgid "Thank you for your booking!"
+msgstr ""
+
+#: admin/class-eventify-me-settings.php:84
+#: admin/class-eventify-me-settings.php:85
+msgid "You have new booking on your event!"
+msgstr ""
+
+#: admin/partials/eventify_me_event_manager_field_item.php:8
+msgid "Select a user as event manager…"
+msgstr ""
+
+#: admin/partials/eventify_me_gallery_field.php:24
+msgid "Add Images"
+msgstr ""
+
+#: admin/partials/eventify_me_timesession_field.php:2
+msgid "Do you really want to remove this session?"
+msgstr ""
+
+#: admin/partials/eventify_me_timesession_field.php:17
+#: admin/partials/eventify_me_timesession_field.php:23
+msgid "Add your event’s first session"
+msgstr ""
+
+#: admin/partials/eventify_me_timesession_field.php:18
+#: admin/partials/eventify_me_timesession_field.php:21
+msgid "Add another event’s session"
+msgstr ""
+
+#: admin/partials/eventify_me_timesession_field_item.php:5
+msgid "Date"
+msgstr ""
+
+#: admin/partials/eventify_me_timesession_field_item.php:10
+msgid "Time start"
+msgstr ""
+
+#: admin/partials/eventify_me_timesession_field_item.php:16
+msgid "Time end"
+msgstr ""
+
+#: admin/partials/eventify_me_timesession_field_item.php:18
+msgid "Clear input"
+msgstr ""
+
+#: admin/partials/eventify_me_timesession_field_item.php:22
+msgid "Is booking enabled?"
+msgstr ""
+
+#: admin/partials/events_metabox_section_for_whom.php:12
+msgid "Suitable age"
+msgstr ""
+
+#: admin/partials/events_metabox_section_for_whom.php:17
+msgid "addeventhelp.FORWHOM.SuitableAge"
+msgstr ""
+
+#: admin/partials/events_metabox_section_for_whom.php:40
+msgid "Are children allowed?"
+msgstr ""
+
+#: admin/partials/events_metabox_section_for_whom.php:46
+msgid "addeventhelp.FORWHOM.AreChildrenAllowed"
+msgstr ""
+
+#: admin/partials/events_metabox_section_for_whom.php:54
+#: admin/partials/events_metabox_section_price.php:19
+msgid "Yes"
+msgstr ""
+
+#: admin/partials/events_metabox_section_for_whom.php:64
+msgid "Language that people need to speak"
+msgstr ""
+
+#: admin/partials/events_metabox_section_for_whom.php:70
+msgid "addeventhelp.FORWHOM.LanguageThatPeopleNeedToSpeak"
+msgstr ""
+
+#: admin/partials/events_metabox_section_price.php:5
+msgid "Free event"
+msgstr ""
+
+#: admin/partials/events_metabox_section_price.php:11
+msgid "addeventhelp.PRICE.FreeEvent"
+msgstr ""
+
+#: admin/partials/events_metabox_section_price.php:27
+msgid "Price"
+msgstr ""
+
+#: admin/partials/events_metabox_section_price.php:33
+msgid "addeventhelp.PRICE.Price"
+msgstr ""
+
+#: admin/partials/events_metabox_section_price.php:40
+msgid ""
+"You can visually emphasize a line with the actual price value, it will also "
+"contain an image with a ticket next to it. To do it, use \"Select format\" "
+"field in editor. It will be marked as \"Heading 1\"."
+msgstr ""
+
+#: admin/partials/events_metabox_section_price.php:44
+msgid "For example:"
+msgstr ""
+
+#: admin/partials/events_metabox_section_price.php:46
+msgid "25€/class"
+msgstr ""
+
+#: admin/partials/events_metabox_section_price.php:49
+msgid "The price includes all requirements drawing materials."
+msgstr ""
+
+#: admin/partials/events_metabox_section_price.php:51
+msgid ""
+"If you mark the line with the price as \"Heading 1\", it will be very nicely "
+"displayed differently from the other text."
+msgstr ""
+
+#: admin/partials/events_metabox_section_side.php:24
+msgid "Event managers"
+msgstr ""
+
+#: admin/partials/events_metabox_section_side.php:28
+msgid ""
+"You can add to the list any user with the role Administrator or Event "
+"manager. These users will be the only ones to have access this event editing "
+"and its booking (including booking notification e-mail)."
+msgstr ""
+
+#: admin/partials/events_metabox_section_side.php:31
+msgid "Add"
+msgstr ""
+
+#: admin/partials/events_metabox_section_what.php:22
+msgid "addeventhelp.WHAT.EventFormats"
+msgstr ""
+
+#: admin/partials/events_metabox_section_what.php:29
+msgid "You have not yet added any formats."
+msgstr ""
+
+#: admin/partials/events_metabox_section_what.php:29
+#: admin/partials/events_metabox_section_what.php:61
+msgid "Add new"
+msgstr ""
+
+#: admin/partials/events_metabox_section_what.php:54
+msgid "addeventhelp.WHAT.EventThematics"
+msgstr ""
+
+#: admin/partials/events_metabox_section_what.php:61
+msgid "You have not yet added any thematics."
+msgstr ""
+
+#: admin/partials/events_metabox_section_what.php:69
+msgid "Cover"
+msgstr ""
+
+#: admin/partials/events_metabox_section_what.php:74
+msgid "addeventhelp.WHAT.Cover"
+msgstr ""
+
+#: admin/partials/events_metabox_section_what.php:82
+msgid "Event page view (0.43)"
+msgstr ""
+
+#: admin/partials/events_metabox_section_what.php:85
+#: admin/partials/events_metabox_section_what.php:97
+msgid "Click here to add a cover"
+msgstr ""
+
+#: admin/partials/events_metabox_section_what.php:94
+msgid "List view (0.58)"
+msgstr ""
+
+#: admin/partials/events_metabox_section_what.php:105
+msgid "Photo gallery"
+msgstr ""
+
+#: admin/partials/events_metabox_section_what.php:111
+msgid "addeventhelp.WHAT.PhotoGallery"
+msgstr ""
+
+#: admin/partials/events_metabox_section_when.php:8
+msgid "Sessions"
+msgstr ""
+
+#: admin/partials/events_metabox_section_when.php:14
+msgid "addeventhelp.WHEN.Sessions"
+msgstr ""
+
+#: admin/partials/events_metabox_section_where.php:4
+msgid "Address"
+msgstr ""
+
+#: admin/partials/events_metabox_section_where.php:10
+msgid "addeventhelp.WHERE.Address"
+msgstr ""
+
+#: admin/partials/events_metabox_section_where.php:17
+msgid ""
+"Please indicate an exact address, but leave additional information to the "
+"“Comments” field"
+msgstr ""
+
+#: admin/partials/events_metabox_section_where.php:26
+msgid "Place title"
+msgstr ""
+
+#: admin/partials/events_metabox_section_where.php:32
+msgid "addeventhelp.WHERE.PlaceTitle"
+msgstr ""
+
+#: admin/partials/events_metabox_section_where.php:43
+msgid "Location comments"
+msgstr ""
+
+#: admin/partials/events_metabox_section_where.php:49
+msgid "addeventhelp.WHERE.LocationComments"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:7
+msgid "Visual settings"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:8
+msgid "Booking settings"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:9
+msgid "Email settings"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:15
+msgid "Colors"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:21
+msgid "Color 1"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:28
+msgid "Color 2"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:35
+msgid "Color 3"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:42
+msgid "Color 4"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:51
+msgid "Color 5"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:58
+msgid "Color 6"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:65
+msgid "Color 7"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:72
+msgid "Color 8"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:81
+msgid "Color 9"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:88
+msgid "Color 10"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:95
+msgid "Color 11"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:102
+msgid "Color 12"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:109
+msgid "Font"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:123
+msgid "Live update for review"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:124
+#: admin/partials/settings/eventify_me_settings_layout.php:247
+#: admin/partials/settings/eventify_me_settings_layout.php:354
+msgid "Publish"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:125
+msgid "Reset all to default values"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:131
+msgid "Preview events list"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:132
+msgid "Preview event details"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:133
+msgid "Preview event booking"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:172
+msgid "Terms and conditions page"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:189
+#: admin/partials/settings/eventify_me_settings_layout.php:224
+msgid "Start typing and select a page"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:196
+msgid "Process after booking confirmation"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:207
+msgid "Return to the event page"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:220
+msgid "Display the page selected below"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:256
+msgid "Email sender options"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:261
+msgid "Sender name"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:267
+msgid "Sender's address"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:274
+msgid "Email to client after booking confirmation"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:280
+#: admin/partials/settings/eventify_me_settings_layout.php:322
+msgid "Email subject"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:284
+#: admin/partials/settings/eventify_me_settings_layout.php:326
+msgid "Email text"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:299
+#: admin/partials/settings/eventify_me_settings_layout.php:340
+msgid "Parameters"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:301
+#: admin/partials/settings/eventify_me_settings_layout.php:342
+msgid "Client email"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:302
+#: admin/partials/settings/eventify_me_settings_layout.php:343
+msgid "Client phone"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:303
+#: admin/partials/settings/eventify_me_settings_layout.php:344
+msgid "Client comments"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:304
+#: admin/partials/settings/eventify_me_settings_layout.php:345
+msgid "Booked sessions"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:305
+msgid "Event address"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:306
+#: admin/partials/settings/eventify_me_settings_layout.php:346
+msgid "Event price"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:307
+#: admin/partials/settings/eventify_me_settings_layout.php:347
+msgid "Event title"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:308
+msgid "Event age categories"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:309
+msgid "Event languages"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:310
+msgid "Event description"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:316
+msgid "Email to event managers after booking confirmation"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:348
+msgid "Event Identifier"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:358
+msgid ""
+"Please put a cursor into the subject or text of the email next to the "
+"parameter you selected."
+msgstr ""
+
+#: includes/class-eventify-me-emails.php:109
+msgid "tickets"
+msgstr ""
+
+#: includes/class-eventify-me-helpers.php:42
+msgid "Estonian"
+msgstr ""
+
+#: includes/class-eventify-me-helpers.php:43
+msgid "Russian"
+msgstr ""
+
+#: includes/class-eventify-me-helpers.php:44
+msgid "English"
+msgstr ""
+
+#: includes/class-eventify-me-helpers.php:45
+msgid "Finish"
+msgstr ""
+
+#: includes/class-eventify-me-helpers.php:46
+msgid "Latvian"
+msgstr ""
+
+#: includes/class-eventify-me-helpers.php:47
+msgid "Lithuanian"
+msgstr ""
+
+#: includes/class-eventify-me-helpers.php:48
+msgid "Spanish"
+msgstr ""
+
+#: includes/class-eventify-me-helpers.php:49
+msgid "French"
+msgstr ""
+
+#: includes/class-eventify-me-helpers.php:50
+msgid "German"
+msgstr ""
+
+#: includes/class-eventify-me-helpers.php:51
+msgid "Italian"
+msgstr ""
+
+#: includes/class-eventify-me-helpers.php:52
+msgid "Netherlands"
+msgstr ""
+
+#: includes/class-eventify-me-helpers.php:58
+msgid "Baby"
+msgstr ""
+
+#: includes/class-eventify-me-helpers.php:59
+msgid "Toddler"
+msgstr ""
+
+#: includes/class-eventify-me-helpers.php:60
+msgid "Child"
+msgstr ""
+
+#: includes/class-eventify-me-helpers.php:61
+msgid "Teen"
+msgstr ""
+
+#: includes/class-eventify-me-helpers.php:62
+msgid "Adult"
+msgstr ""
+
+#: includes/class-eventify-me-helpers.php:63
+msgid "Senior"
+msgstr ""
+
+#: includes/entities/booking_order.php:166
+msgid "Missing booking id."
+msgstr ""
+
+#: includes/entities/event_session.php:107
+msgid "Missing session id."
+msgstr ""
+
+#: includes/entities/event_session_booking.php:100
+msgid "Missing order session id."
+msgstr ""
+
+#: public/class-eventify-me-public.php:184
+msgid "Attribute "
+msgstr ""
+
+#: public/class-eventify-me-public.php:184
+msgid "not specified."
+msgstr ""
+
+#: public/class-eventify-me-public.php:186
+msgid "Event with ID "
+msgstr ""
+
+#: public/class-eventify-me-public.php:186
+msgid "not found."
+msgstr ""
+
+#: public/class-eventify-me-public.php:191
+msgid "Event with available bookings not found.."
+msgstr ""
+
+#: public/partials/booking-shortcode.php:23
+#: public/partials/booking-shortcode_preview.php:31
+msgid "Back"
+msgstr ""
+
+#: public/partials/booking-shortcode.php:29
+#: public/partials/booking-shortcode_preview.php:38
+msgid "Tickets"
+msgstr ""
+
+#: public/partials/booking-shortcode.php:87
+#: public/partials/booking-shortcode.php:119
+#: public/partials/booking-shortcode_preview.php:126
+#: public/partials/booking-shortcode_preview.php:158
+msgid "Proceed"
+msgstr ""
+
+#: public/partials/booking-shortcode.php:96
+#: public/partials/booking-shortcode_preview.php:135
+msgid "Contact details"
+msgstr ""
+
+#: public/partials/booking-shortcode.php:105
+#: public/partials/booking-shortcode_preview.php:144
+msgid "Your e-mail"
+msgstr ""
+
+#: public/partials/booking-shortcode.php:110
+#: public/partials/booking-shortcode_preview.php:149
+msgid "Your phone number"
+msgstr ""
+
+#: public/partials/booking-shortcode.php:115
+#: public/partials/booking-shortcode_preview.php:154
+msgid "Additional comments (if needed)"
+msgstr ""
+
+#: public/partials/booking-shortcode.php:130
+#: public/partials/booking-shortcode_preview.php:169
+msgid "Confirmation"
+msgstr ""
+
+#: public/partials/booking-shortcode.php:142
+#: public/partials/booking-shortcode_preview.php:204
+msgid "By clicking the button I agree with the"
+msgstr ""
+
+#: public/partials/booking-shortcode.php:144
+#: public/partials/booking-shortcode_preview.php:206
+msgid "terms and conditions"
+msgstr ""
+
+#: public/partials/booking-shortcode.php:148
+#: public/partials/booking-shortcode_preview.php:210
+msgid "Confirm Booking"
+msgstr ""
+
+#: public/partials/booking-shortcode_preview.php:24
+msgid "Event with available bookings not found."
+msgstr ""
+
+#: public/partials/eventify-me-list-view-events-item.php:29
+#: public/partials/eventify-me-list-view-events-item.php:37
+msgid "sessions"
+msgstr ""
+
+#: public/partials/eventify-me-list-view-events-item.php:72
+msgid "Free"
+msgstr ""
+
+#: public/partials/eventify-me-list-view-events.php:5
+msgid "EVENTS"
+msgstr ""
+
+#: public/partials/eventify-me-list-view-events.php:9
+msgid "View past events"
+msgstr ""
+
+#: public/partials/eventify-me-list-view-events.php:10
+msgid "View future events"
+msgstr ""
+
+#: public/partials/eventify-me-list-view-events.php:17
+msgid "Current"
+msgstr ""
+
+#: public/partials/eventify-me-list-view-events.php:20
+msgid "Past"
+msgstr ""
+
+#: public/partials/eventify-me-list-view-events.php:33
+#: public/partials/eventify-me-list-view-events.php:43
+msgid "Events not found."
+msgstr ""
+
+#: public/partials/eventify-me-plugin-ad-text.php:21
+#, php-format
+msgid "These events are displayed thanks to %s"
+msgstr ""
+
+#: public/partials/single-eventify-me.php:51
+msgid "Thank you for the successful booking!"
+msgstr ""
+
+#: public/partials/single-eventify-me.php:63
+msgid "Time"
+msgstr ""
+
+#: public/partials/single-eventify-me.php:71
+msgid "Duration"
+msgstr ""
+
+#: public/partials/single-eventify-me.php:72
+msgid "hours"
+msgstr ""
+
+#: public/partials/single-eventify-me.php:75
+msgid "More sessions"
+msgstr ""
+
+#: public/partials/single-eventify-me.php:87
+msgid "Sign up"
+msgstr ""
+
+#: public/partials/single-eventify-me.php:128
+msgid "Sign-up"
+msgstr ""
+
+#: public/partials/booking-shortcode.php:115
+msgid "I want to get updates about upcoming events."
+msgstr ""
+
+#: public/partials/booking-shortcode.php:117
+msgid "If you already do, we will just ignore this."
+msgstr ""
+
+#: admin/class-eventify-me-admin.php:210
+msgid "Minimalistic event output: "
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:390
+msgid "First name"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:391
+msgid "Last name"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:580 admin/class-eventify-me-booking-list.php:581
+msgid "Filter by first name"
+msgstr ""
+
+#: admin/class-eventify-me-booking-list.php:580 admin/class-eventify-me-booking-list.php:581
+msgid "Filter by last name"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:301 admin/partials/settings/eventify_me_settings_layout.php:342
+msgid "Client first name"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:301 admin/partials/settings/eventify_me_settings_layout.php:342
+msgid "Client last name"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:301 admin/partials/settings/eventify_me_settings_layout.php:342
+msgid "Your first name"
+msgstr ""
+
+#: admin/partials/settings/eventify_me_settings_layout.php:301 admin/partials/settings/eventify_me_settings_layout.php:342
+msgid "Your last name"
+msgstr ""

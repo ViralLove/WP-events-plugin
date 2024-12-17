@@ -1,0 +1,3 @@
+.admin-body-role-eventify_me_manager #wpadminbar #wp-admin-bar-root-default > li:not(#wp-admin-bar-wp-logo):not(#wp-admin-bar-menu-toggle):not(#wp-admin-bar-link_to_eventify_me_in_admin){
+    display: none;
+}
